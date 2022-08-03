@@ -10,7 +10,7 @@ public class OTo {
     @Value("${com.luyenlaptrinh.giatrivang}")
     private Integer vang;
 
-    @Scheduled(fixedDelay=10000L)
+//    @Scheduled(fixedDelay=10000L)
     public void run(){
         System.out.println(vang);
     }
